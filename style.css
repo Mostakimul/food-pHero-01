@@ -27,6 +27,9 @@ body {
 .flex-w-50 {
   width: 50%;
 }
+.flex-w-30 {
+  width: 30%;
+}
 .color-orange {
   color: #fba24f;
 }
@@ -43,7 +46,7 @@ body {
   margin-top: 2rem;
 }
 .paragraph {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #878787;
 }
 .sub-title {
@@ -59,6 +62,7 @@ body {
   margin-bottom: 5rem;
 }
 .hero-paragraph {
+  font-size: 2rem;
   width: 80%;
   margin-bottom: 2rem;
 }
@@ -87,4 +91,39 @@ body {
 }
 .about-sub {
   margin-bottom: 3rem;
+}
+
+/*************** Recipie Section ***************/
+#recipie {
+  padding: 8rem 0;
+}
+.recipie-content {
+  text-align: center;
+}
+.recipie-sub {
+  margin-bottom: 3rem;
+}
+.recipie-paragraph {
+  width: 60%;
+  margin: 0 auto;
+}
+.recipie-card {
+  padding: 1.5rem;
+  box-shadow: 0 0 3rem #bebebe;
+  border-radius: 3rem;
+}
+.recipie-card:not(:last-child) {
+  margin-right: 3%;
+}
+.recipie-card__image {
+  width: 100%;
+}
+.recipie-card__title {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #575757;
+}
+.recipie-card__para {
+  margin: 2rem 0;
 }

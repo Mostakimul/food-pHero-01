@@ -19,7 +19,7 @@ body {
   width: 120rem;
   margin: 0 auto;
 }
-.felx-conatiner {
+.flex-container {
   display: flex;
   padding: 8rem 0;
   align-items: center;
@@ -29,6 +29,10 @@ body {
 }
 .flex-w-30 {
   width: 30%;
+}
+.flex-w-33 {
+  width: 33.33%;
+  text-align: center;
 }
 .color-orange {
   color: #fba24f;
@@ -126,4 +130,16 @@ body {
 }
 .recipie-card__para {
   margin: 2rem 0;
+}
+
+/*************** Counter Section ***************/
+#counter {
+  margin-bottom: 8rem;
+}
+.counter-container {
+  box-shadow: 0 0 20px #bebebe;
+  border-radius: 2rem;
+  background: url('./images/shapes/Frame\ 59.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }

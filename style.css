@@ -172,7 +172,36 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/*************** Contact Section ***************/
+.center {
+  text-align: center;
+}
+.form-input {
+  padding: 1.3rem 1rem;
+  border-radius: 5rem;
+  border: none;
+  box-shadow: 0 0 1rem #bebebe;
+  margin: 1rem;
+  width: 70%;
+}
+.form {
+  margin-top: 4rem;
+}
+.form-container {
+  padding-top: 2rem;
+}
+#message {
+  padding: 3rem;
+}
+input,
+textarea {
+  font-family: 'Nunito', sans-serif;
+}
+input::placeholder,
+textarea::placeholder {
+  font-size: 1.2rem;
+  color: #878787;
+}
 /*************** Footer Section ***************/
 #footer {
   padding: 3rem 0;
